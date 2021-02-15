@@ -6,8 +6,7 @@
 
 **Commands for required library/package**
 
-library ieee;
+library ieee;                               -- Standard library
 
-
-use ieee.std_logic_1164.all;
+use ieee.std_logic_1164.all;                -- Package for data types and logic operations
 
