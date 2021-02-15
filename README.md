@@ -4,5 +4,5 @@
 ### Laboratorní cvičení
 
 
-**Source Code**
+**Source Code - Zdrojový kód**
 
