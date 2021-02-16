@@ -3,7 +3,9 @@
 
 ### 1. Task
 GitHub link to Digital-Electronics-1 repository:
+
 https://github.com/JiriKlimes99/Digital_Electronics_1.git
+
 --------------------------------------
 
 ### 2. Task
@@ -25,6 +27,7 @@ Screenshot - Simulated Time Waveforms
 
 EDA Playground Link:
 (includes the whole VHDL code)
+
 https://www.edaplayground.com/x/wcD4
 
 
@@ -59,6 +62,8 @@ VHDL Code:
 
 
 Screenshot - Simulated Time Waveforms
+
+
 ![Alt text](https://github.com/JiriKlimes99/Digital_Electronics_1/blob/main/Labs/01-gates/Task%203%20-%20Time%20Waveforms%20Screenshot%20.PNG?raw=true "Optional Title")
 
 
