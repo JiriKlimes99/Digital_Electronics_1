@@ -1,12 +1,12 @@
 ## Labs Exercise no.1
 
 
-#### 1. Task;
+### 1. Task
 GitHub link to Digital-Electronics-1 repository:
 https://github.com/JiriKlimes99/Digital_Electronics_1.git
 
-#### 2. Task;
-Verification of De Morgan's laws of function f(c,b,a);
+### 2. Task;
+Verification of De Morgan's laws of function f(c,b,a)
 
 _De Morgan's laws - functions (listed VHDL code)_
     f_o       <= ((not b_i) and a_i) or ((not c_i) and (not b_i));
@@ -14,7 +14,7 @@ _De Morgan's laws - functions (listed VHDL code)_
     fnor_o    <= (b_i nor (not a_i)) or (c_i nor b_i);
 
 Screenshot - Simulated Time Waveforms
-![Screenshot EDA Playground](01-gates/Time Waveforms Screenshot.PNG)
+![Waveform](01-gates/https://github.com/JiriKlimes99/Digital_Electronics_1/blob/main/Labs/01-gates/Time%20Waveforms%20Screenshot.PNG)
 
 
 EDA Playground Link:
@@ -36,4 +36,4 @@ _Value chart_
 
 
 
-#### 3. Task;
+### 3. Task;
