@@ -60,7 +60,7 @@ end architecture dataflow;
 
 
 Screenshot - Simulated Time Waveforms
-![Alt text](https://github.com/JiriKlimes99/Digital_Electronics_1/blob/main/Labs/01-gates/Time%20Waveforms%20Screenshot.PNG?raw=true "Optional Title")
+![Alt text](https://github.com/JiriKlimes99/Digital_Electronics_1/blob/main/Labs/01-gates/Task%203%20-%20Time%20Waveforms%20Screenshot%20.PNG?raw=true "Optional Title")
 
 
 EDA Playground Link:
