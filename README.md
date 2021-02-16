@@ -1,4 +1,4 @@
-# Digital_Electronics_1
+# Digital Electronics 1
 
 ## Digitální Elektronika 1
 
