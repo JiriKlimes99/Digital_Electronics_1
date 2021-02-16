@@ -6,7 +6,7 @@ GitHub link to Digital-Electronics-1 repository:
 https://github.com/JiriKlimes99/Digital_Electronics_1.git
 
 
-### 2. Task;
+### 2. Task
 Verification of De Morgan's laws of function f(c,b,a)
 
 _De Morgan's laws - functions (listed VHDL code)_
@@ -36,4 +36,4 @@ _Value chart_
 | 1 | 1 | 1 | 0 |
 
 
-### 3. Task;
+### 3. Task
