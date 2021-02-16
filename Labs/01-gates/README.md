@@ -14,7 +14,7 @@ _De Morgan's laws - functions (listed VHDL code)_
     fnor_o    <= (b_i nor (not a_i)) or (c_i nor b_i);
 
 Screenshot - Simulated Time Waveforms
-![Alt text](/JiriKlimes99/Digital_Electronics_1/blob/main/Labs/01-gates/Time Waveforms Screenshot.PNG?raw=true "Optional Title")
+![Alt text](https://github.com/JiriKlimes99/Digital_Electronics_1/blob/main/Labs/01-gates/Time%20Waveforms%20Screenshot.PNG?raw=true "Optional Title")
 
 
 EDA Playground Link:
