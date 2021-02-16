@@ -12,13 +12,12 @@ Verification of De Morgan's laws of function f(c,b,a)
 _De Morgan's laws - functions (listed VHDL code)_
 
 
-architecture dataflow of gates is
-begin
-    f_o       <= ((not b_i) and a_i) or ((not c_i) and (not b_i));
-    fnand_o   <= (((not b_i) nand (a_i)) nand ((not c_i) nand (not b_i)));
-    fnor_o    <= (b_i nor (not a_i)) or (c_i nor b_i);
-
-end architecture dataflow;
+    architecture dataflow of gates is
+    begin
+        f_o       <= ((not b_i) and a_i) or ((not c_i) and (not b_i));
+        fnand_o   <= (((not b_i) nand (a_i)) nand ((not c_i) nand (not b_i)));
+        fnor_o    <= (b_i nor (not a_i)) or (c_i nor b_i);
+    end architecture dataflow;
 
 
 Screenshot - Simulated Time Waveforms
@@ -47,16 +46,16 @@ _Value chart_
 Verification of Distributive laws
 
 
-architecture dataflow of gates is
-begin
+    architecture dataflow of gates is
+    begin
     
-    f1_a       <= (x_i and y_i) or (x_i and z_i);
-    f1_b       <= x_i and (y_i or z_i);
+        f1_a       <= (x_i and y_i) or (x_i and z_i);
+        f1_b       <= x_i and (y_i or z_i);
        
-    f2_a       <= (x_i or y_i) and (x_i or z_i);
-    f2_b       <= x_i or (y_i and z_i);
+        f2_a       <= (x_i or y_i) and (x_i or z_i);
+        f2_b       <= x_i or (y_i and z_i);
 
-end architecture dataflow;
+    end architecture dataflow;
 
 
 Screenshot - Simulated Time Waveforms
