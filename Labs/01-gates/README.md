@@ -9,8 +9,7 @@ https://github.com/JiriKlimes99/Digital_Electronics_1.git
 ### 2. Task
 Verification of De Morgan's laws of function f(c,b,a)
 
-_De Morgan's laws - functions (listed VHDL code)_
-
+VHDL Code:
 
     architecture dataflow of gates is
     begin
@@ -45,6 +44,7 @@ _Value chart_
 ### 3. Task
 Verification of Distributive laws
 
+VHDL Code:
 
     architecture dataflow of gates is
     begin
