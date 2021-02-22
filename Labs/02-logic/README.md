@@ -174,12 +174,16 @@ begin
         -- If false, then report an error
         report "Test failed for input combination: 0010, 0100" severity error;
 
+        --------------------------------------------------------------------
+
 		-- Fifth test values -- CONTAINS THE MISTAKE TO DEMONTRATE ERROR MESSAGE
         s_b <= "0101"; s_a <= "1010"; wait for 100 ns;
         -- Expected output
         assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
         -- If false, then report an error
         report "Test failed for input combination: 0101, 1010" severity error;
+
+        --------------------------------------------------------------------
 
 		-- Sixth test values
         s_b <= "1101"; s_a <= "1101"; wait for 100 ns;
@@ -224,6 +228,10 @@ begin
 
 end architecture testbench;
 ```
+
+### Simulated Time Waveforms
+
+![Simulation](Images/Simulated_Time_Waveforms.PNG)
 
 ### Simulator console output with the reported error
 
