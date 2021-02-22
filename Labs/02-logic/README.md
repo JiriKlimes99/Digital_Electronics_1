@@ -25,4 +25,4 @@
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
 
-![SOP Function](/Labs/02-logic/SOP Function.png)
+![SOP Function](SOP Function.png)
