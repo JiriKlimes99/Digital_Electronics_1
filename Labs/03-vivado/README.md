@@ -12,9 +12,11 @@ https://github.com/JiriKlimes99/Digital_Electronics_1.git
 Connection of 16 slide switches and 16 LEDs on Nexys A7 board.
 
 Connection paths of Slide switches
+
 ![Simulation](Images/Switches_Connection_Path.PNG)
 
 Connection paths of LEDs
+
 ![Simulation](Images/LEDs_Connection_Path.PNG)
 
 Schematic of LEDs an swithes and pins they are connected to
