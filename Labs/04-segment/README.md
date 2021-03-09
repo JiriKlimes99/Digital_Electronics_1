@@ -10,7 +10,7 @@ https://github.com/JiriKlimes99/Digital_Electronics_1.git
 
 Image showing the connections of 7-segment displays on Nexys A7 board,
 
-![Simulation](Images/NEXYS BOARD.png)
+![BoardPicture](Images/NEXYS_BOARD.png)
 
 Decoder truth table for common anode 7-segment display
 
@@ -143,7 +143,7 @@ p_stimulus : process
 
 Screenshot with simulated time waveforms; always display all inputs and outputs
 
-![Simulation](Images/SIMULATED_TIME_WAVEFORMS.PNG)
+![WaveformsPicture](Images/SIMULATED_TIME_WAVEFORMS.PNG)
 
 Listing of VHDL code from source file top.vhd with 7-segment module instantiation
 
@@ -235,4 +235,4 @@ Listing of VHDL code for LEDs(7:4) with syntax highlighting
 
 Screenshot with simulated time waveforms; always display all inputs and outputs
 
-![Simulation](Images/TASK3_WAVEFORMS.PNG)
+![LastPicture](Images/TASK3_WAVEFORMS.PNG)
