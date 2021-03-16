@@ -184,3 +184,6 @@ Listing of VHDL code from source file top.vhd with all instantiations for the 4-
 
 ```
 
+Image of the top layer including both counters, ie a 4-bit bidirectional counter from Part 4 and a 16-bit counter from Experiments on your own.
+
+![WaveformsPicture](Images/Scheme.jpg)
