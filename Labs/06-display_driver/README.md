@@ -259,4 +259,4 @@ end architecture Behavioral;
 
 Image of the driver schematic
 
-![WaveformsPicture](Images/ThirdTask.jpg)
+![WaveformsPicture](Images/Third_Task.jpg)
