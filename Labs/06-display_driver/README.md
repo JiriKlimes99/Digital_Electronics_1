@@ -1,4 +1,4 @@
-# Lab 5: Binary Counter
+# Lab 5: Display Driver
 
 
 GitHub link to my Digital-Electronics-1 repository
