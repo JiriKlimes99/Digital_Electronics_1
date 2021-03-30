@@ -666,3 +666,4 @@ T FF Synchronous
 ## Task 4 - Shift Register
 
 Image of the shift register schematic
+![Simulation2](Images/TASK4.PNG)
