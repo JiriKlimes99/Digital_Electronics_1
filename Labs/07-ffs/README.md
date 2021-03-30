@@ -51,8 +51,6 @@ Characteristic equations and completed tables for D, JK, T flip-flops.
    | ![rising](Images/eq_uparrow.png) | 0 | 1 | 1 |  |
    | ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 |  |
    | ![rising](Images/eq_uparrow.png) | 1 | 1 | 0 |  |
-
-
 <!--
 
 
