@@ -197,7 +197,7 @@ D) Screenshot(s) of the simulation, from which it is clear that controller works
 A) State Table
 
 | **Current state** | **Direction South** | **Direction West** | **Delay** | **Next State** |
-| :-- | :-: | :-: | :-: |
+| :-- | :-: | :-: | :-: | :-: |
 | `STOP1`      | red    | red | 1 sec | for [i1,i2]=[0,1] => SOUTH_GO, for [i1,i2]=[0,0]or[1,1]or[1,0] => WEST_GO |
 | `WEST_GO`    | red    | green | 4 sec | WEST_WAIT|
 | `WEST_WAIT`  | red    | yellow | 2 sec | STOP2 	|
