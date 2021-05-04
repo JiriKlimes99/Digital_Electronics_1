@@ -1,0 +1,7 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 949412cf88d94f5e9247beea36d64d76 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_fsm_behav xil_defaultlib.tb_fsm -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1360] signal cannot be unconstrained [C:/Users/jirik/OneDrive/Plocha/DE1/Digital_Electronics_1/Labs/tachometer/project/project.srcs/sim_1/new/tb_fsm.vhd:19]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_fsm in library work failed.
