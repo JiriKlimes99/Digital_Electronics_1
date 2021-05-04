@@ -28,8 +28,8 @@ entity tlc is
     port(
         clk     : in  std_logic;
         reset   : in  std_logic;
-        in_1      : in  std_logic;
-        in_2      : in  std_logic;
+        --in_1      : in  std_logic;
+        --in_2      : in  std_logic;
         -- Traffic lights (RGB LEDs) for two directions
         south_o : out std_logic_vector(3 - 1 downto 0);
         west_o  : out std_logic_vector(3 - 1 downto 0)
@@ -114,15 +114,14 @@ begin
                         if (s_cnt < c_DELAY_1SEC) then
                             s_cnt <= s_cnt + 1;
                         else
-                            if (in_1 = '1' and in_2 = '0')then
-                            s_state <= WEST_GO;
-                            elsif (in_1 = '0' and in_2 = '1')then
-                            s_state <= SOUTH_GO;
-                            elsif (in_1 = '1' and in_2 = '1')then
-                            s_state <= WEST_GO;
-                            else
-                            s_state <= WEST_GO;
-                            end if;
+                            --if (in_1 = '1' and in_2 = '0')then
+                            --s_state <= WEST_GO;
+                            --elsif (in_1 = '0' and in_2 = '1')then
+                            --s_state <= SOUTH_GO;
+                            --elsif (in_1 = '1' and in_2 = '1')then
+                            --s_state <= WEST_GO;
+                            --else
+                        s_state <= WEST_GO;
                             -- Reset local counter value
                             s_cnt <= c_ZERO;
                         end if;
@@ -155,15 +154,14 @@ begin
                             s_cnt <= s_cnt + 1;
                         else
                         -- Move to the next state
-                        if (in_1 = '1' and in_2 = '0')then
-                            s_state <= WEST_GO;
-                        elsif (in_1 = '0' and in_2 = '1')then
+--                        if (in_1 = '1' and in_2 = '0')then
+--                            s_state <= WEST_GO;
+--                        elsif (in_1 = '0' and in_2 = '1')then
+--                            s_state <= SOUTH_GO;
+--                        elsif (in_1 = '1' and in_2 = '1')then
+--                            s_state <= SOUTH_GO;
+--                        else
                             s_state <= SOUTH_GO;
-                        elsif (in_1 = '1' and in_2 = '1')then
-                            s_state <= SOUTH_GO;
-                        else
-                            s_state <= SOUTH_GO;
-                        end if;
                         -- Reset local counter value
                         s_cnt <= c_ZERO;
                         end if;
