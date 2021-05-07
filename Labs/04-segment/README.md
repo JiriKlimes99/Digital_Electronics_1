@@ -237,11 +237,3 @@ Screenshot with simulated time waveforms; always display all inputs and outputs
 
 ![LastPicture](images/TASK3_WAVEFORMS.PNG)
 
-
-# KUK
-
-![LastPicture](Images/SAKRA.JPG)
-
-# hihi
-
-![LastPicture](Images/fungueto.JPG)
